@@ -1,3 +1,9 @@
+//! Fern allows you to manipulate ferns.
+//! It's a sample crate to testing purpose.
+//! 
+//! ```js
+//! console.log(1 === 1);
+//! ```
 #[derive(Debug)]
 pub struct Fern {
     pub size: f64,
