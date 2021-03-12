@@ -1,0 +1,44 @@
+[package]
+name = "input-and-output"
+version = "0.1.0"
+authors = ["Leonty Chudinov <leonty@inbox.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = "0.5.1"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "grep"
+path = "src/grep/main.rs"
+
+[[bin]]
+name = "grep2"
+path = "src/grep2/main.rs"
+
+[[bin]]
+name = "write"
+path = "src/write/main.rs"
+
+[[bin]]
+name = "json"
+path = "src/json/main.rs"
+
+[[bin]]
+name = "files_and_folders"
+path = "src/files_and_folders/main.rs"
+
+[[bin]]
+name = "echo_server"
+path = "src/echo_server/main.rs"
+
+[[bin]]
+name = "get"
+path = "src/get/main.rs"
